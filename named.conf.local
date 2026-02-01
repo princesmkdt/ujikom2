@@ -1,0 +1,10 @@
+//
+// Do any local configuration here
+//
+
+// consider adding the 1928 zones here, if they are not used in
+// organization
+// include "/etc/bind/zones.rfc1918
+
+zone "princesmkdt.co.id"{ type master; file "/etc/bind/conf_domain"; };
+zone "100.168.192.in-addr.arpa"{ type master; file "etc/bind/conf_ip"; };
